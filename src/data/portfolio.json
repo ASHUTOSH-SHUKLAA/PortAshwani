@@ -1,0 +1,951 @@
+{
+  "projects": [
+    {
+      "id": "project-01",
+      "projectNumber": "REEL 001",
+      "title": "NEON DRIFT & CINEMA",
+      "category": "Cinematic Films",
+      "client": "Self-Initiated Narrative",
+      "year": "2026",
+      "role": "Art Direction · Edit · Grade",
+      "tools": [
+        "DaVinci Resolve",
+        "Premiere Pro",
+        "After Effects"
+      ],
+      "description": "A cinematic study in movement, atmospheric urban illumination, and high-density rhythm.",
+      "concept": "Exploring the intersection between high-contrast nighttime architecture and personal narrative momentum.",
+      "thumbnail": "/images/personal/photo-02-cinematic-night-stairs.jpg",
+      "videoUrl": "/videos/reel-cinematic-01.mp4",
+      "aspect": "portrait",
+      "featured": true,
+      "size": "large"
+    },
+    {
+      "id": "project-02",
+      "projectNumber": "REEL 002",
+      "title": "VELOCITY RUSH — KINETIC MOTION",
+      "category": "Commercials & Ads",
+      "client": "Campaign Direction",
+      "year": "2026",
+      "role": "Motion Designer · Editor",
+      "tools": [
+        "After Effects",
+        "Premiere Pro",
+        "Photoshop"
+      ],
+      "description": "Dynamic pacing, custom speed ramps, and typography designed for instant viewer retention.",
+      "concept": "Locking visual cuts directly to audio transients to construct visceral sensory momentum.",
+      "thumbnail": "/images/posters/poster-art-01.jpg",
+      "videoUrl": "/videos/reel-commercial-02.mp4",
+      "aspect": "portrait",
+      "featured": true,
+      "size": "medium"
+    },
+    {
+      "id": "project-03",
+      "projectNumber": "REEL 003",
+      "title": "VIRAL REEL HOOKS & PACING",
+      "category": "Social Media Reels",
+      "client": "Creator Series",
+      "year": "2026",
+      "role": "Short-Form Reel Specialist",
+      "tools": [
+        "Premiere Pro",
+        "CapCut Pro",
+        "Node Video"
+      ],
+      "description": "Dynamic pattern interrupts and kinetic visual identity for short-form video.",
+      "concept": "Building retention through rhythm, sound design and clean typographic transitions.",
+      "thumbnail": "/images/posters/poster-art-02.jpg",
+      "videoUrl": "/videos/reel-social-07.mp4",
+      "aspect": "portrait",
+      "featured": true,
+      "size": "medium"
+    },
+    {
+      "id": "project-04",
+      "projectNumber": "REEL 004",
+      "title": "THE VISUAL ARCHIVE — ART & SPACE",
+      "category": "Cinematic Films",
+      "client": "Exhibition Vignette",
+      "year": "2026",
+      "role": "Director · Cinematography · Edit",
+      "tools": [
+        "Premiere Pro",
+        "DaVinci Resolve Studio"
+      ],
+      "description": "An atmospheric documentary exploring historic cinema installations and spatial scale.",
+      "concept": "Allowing wide compositions to linger, prioritizing negative space, architecture, and ambient audio.",
+      "thumbnail": "/images/personal/photo-08-gallery-wide-standing.jpg",
+      "videoUrl": "/videos/project-narrative-03.mp4",
+      "aspect": "portrait",
+      "featured": true,
+      "size": "large"
+    },
+    {
+      "id": "project-05",
+      "projectNumber": "REEL 005",
+      "title": "CHRONICLES OF MOTION",
+      "category": "Motion Graphics",
+      "client": "Visual Research",
+      "year": "2026",
+      "role": "Experimental Designer",
+      "tools": [
+        "After Effects",
+        "Figma",
+        "Illustrator"
+      ],
+      "description": "Animated title sequences and graphic poster typography in motion.",
+      "concept": "Blurring the boundary between static print layouts and kinetic digital animation.",
+      "thumbnail": "/images/projects/creative-poster-04.jpg",
+      "videoUrl": "/videos/project-motion-05.mp4",
+      "aspect": "portrait",
+      "featured": false,
+      "size": "medium"
+    },
+    {
+      "id": "project-06",
+      "projectNumber": "REEL 006",
+      "title": "RAPID SEQUENCE & DYNAMIC EDITS",
+      "category": "Commercials & Ads",
+      "client": "High-Retention Campaign",
+      "year": "2026",
+      "role": "Editor & Sound Designer",
+      "tools": [
+        "Premiere Pro",
+        "After Effects"
+      ],
+      "description": "High-velocity rhythmic cutting timed to percussive sound design and graphic typography.",
+      "concept": "Creating sensory impact within the first seconds through sharp visual-audio sync.",
+      "thumbnail": "/images/posters/poster-devi-democracy.jpg",
+      "videoUrl": "/videos/reel-fastcut-08.mp4",
+      "aspect": "portrait",
+      "featured": false,
+      "size": "medium"
+    },
+    {
+      "id": "project-07",
+      "projectNumber": "REEL 007",
+      "title": "TEASER ESSENCE & VIRAL MOMENTUM",
+      "category": "Social Media Reels",
+      "client": "Social Narrative",
+      "year": "2026",
+      "role": "Visual Storyteller",
+      "tools": [
+        "Premiere Pro",
+        "CapCut Pro"
+      ],
+      "description": "A bite-sized narrative arc crafted for social sharing.",
+      "concept": "Structuring a concise story with rhythm, sound and clear visual progression.",
+      "thumbnail": "/images/posters/poster-udaan.jpg",
+      "videoUrl": "/videos/reel-teaser-09.mp4",
+      "aspect": "portrait",
+      "featured": false,
+      "size": "medium"
+    },
+    {
+      "id": "project-08",
+      "projectNumber": "REEL 008",
+      "title": "TONAL PRECISION — 35MM GRADE",
+      "category": "Cinematic Films",
+      "client": "Short Film Color Suite",
+      "year": "2026",
+      "role": "Colorist & Finishing Artist",
+      "tools": [
+        "DaVinci Resolve Studio"
+      ],
+      "description": "Color workflow covering exposure, skin tones and film-inspired finishing.",
+      "concept": "Transforming digital camera profiles into rich, filmic palettes.",
+      "thumbnail": "/images/projects/film-still-06.jpg",
+      "videoUrl": "/videos/reel-grading-06.mp4",
+      "aspect": "portrait",
+      "featured": false,
+      "size": "medium"
+    }
+  ],
+  "posters": [
+    {
+      "id": "poster-1",
+      "number": "01",
+      "title": "DEVI / DEMOCRACY",
+      "category": "Cultural key art",
+      "tag": "Personal study",
+      "year": "2026",
+      "tools": [
+        "Photoshop",
+        "Illustrator"
+      ],
+      "image": "/media/optimized/posters/poster-01.webp",
+      "description": "Cultural key art developed as a personal visual exploration."
+    },
+    {
+      "id": "poster-2",
+      "number": "02",
+      "title": "PEAKY BLINDERS — BY ORDER",
+      "category": "Film poster",
+      "tag": "Personal study",
+      "year": "2026",
+      "tools": [
+        "Photoshop",
+        "Illustrator"
+      ],
+      "image": "/media/optimized/posters/poster-02.webp",
+      "description": "Film poster developed as a personal visual exploration."
+    },
+    {
+      "id": "poster-3",
+      "number": "03",
+      "title": "PEAKY BLINDERS — THE FAMILY",
+      "category": "Film poster",
+      "tag": "Personal study",
+      "year": "2026",
+      "tools": [
+        "Photoshop",
+        "Illustrator"
+      ],
+      "image": "/media/optimized/posters/poster-03.webp",
+      "description": "Film poster developed as a personal visual exploration."
+    },
+    {
+      "id": "poster-4",
+      "number": "04",
+      "title": "UDAAN — POEM SUNOGE?",
+      "category": "Film tribute",
+      "tag": "Personal study",
+      "year": "2026",
+      "tools": [
+        "Photoshop",
+        "Illustrator"
+      ],
+      "image": "/media/optimized/posters/poster-04.webp",
+      "description": "Film tribute developed as a personal visual exploration."
+    },
+    {
+      "id": "poster-5",
+      "number": "05",
+      "title": "THE BATMAN — DARK KNIGHT",
+      "category": "Character poster",
+      "tag": "Personal study",
+      "year": "2026",
+      "tools": [
+        "Photoshop",
+        "Illustrator"
+      ],
+      "image": "/media/optimized/posters/poster-05.webp",
+      "description": "Character poster developed as a personal visual exploration."
+    },
+    {
+      "id": "poster-6",
+      "number": "06",
+      "title": "THE BATMAN — PART II",
+      "category": "Character poster",
+      "tag": "Personal study",
+      "year": "2026",
+      "tools": [
+        "Photoshop",
+        "Illustrator"
+      ],
+      "image": "/media/optimized/posters/poster-06.webp",
+      "description": "Character poster developed as a personal visual exploration."
+    },
+    {
+      "id": "poster-7",
+      "number": "07",
+      "title": "BATMAN — NEON CITY",
+      "category": "Character poster",
+      "tag": "Personal study",
+      "year": "2026",
+      "tools": [
+        "Photoshop",
+        "Illustrator"
+      ],
+      "image": "/media/optimized/posters/poster-07.webp",
+      "description": "Character poster developed as a personal visual exploration."
+    },
+    {
+      "id": "poster-8",
+      "number": "08",
+      "title": "OCTOBER",
+      "category": "Cinematic poster",
+      "tag": "Personal study",
+      "year": "2026",
+      "tools": [
+        "Photoshop",
+        "Illustrator"
+      ],
+      "image": "/media/optimized/posters/poster-08.webp",
+      "description": "Cinematic poster developed as a personal visual exploration."
+    }
+  ],
+  "photography": [
+    {
+      "id": "photo-01",
+      "url": "/images/personal/photo-01-bollywood-retro.jpg",
+      "title": "RETRO FILM ARCHIVE",
+      "subtitle": "Inspired by golden-era Bollywood hand-painted art & timeless cinema",
+      "tag": "INSPIRATION"
+    },
+    {
+      "id": "photo-02",
+      "url": "/images/personal/photo-02-cinematic-night-stairs.jpg",
+      "title": "MIDNIGHT ILLUMINATION",
+      "subtitle": "Bharat Mandapam & Cosmic Nataraja under cinematic night lighting",
+      "tag": "ATMOSPHERE"
+    },
+    {
+      "id": "photo-03",
+      "url": "/images/personal/photo-03-sholay-poster.jpg",
+      "title": "THE SHOLAY HERITAGE",
+      "subtitle": "Standing in the presence of monumental cinema history",
+      "tag": "HERITAGE"
+    },
+    {
+      "id": "photo-04",
+      "url": "/images/personal/photo-04-night-stadium-steps.jpg",
+      "title": "NEON PERSPECTIVE",
+      "subtitle": "Composition, contrast, and scale in modern architecture",
+      "tag": "PERSPECTIVE"
+    },
+    {
+      "id": "photo-05",
+      "url": "/images/personal/photo-05-gallery-looking-up.jpg",
+      "title": "CURATING VISION",
+      "subtitle": "Art exhibition walkthrough & visual analysis",
+      "tag": "CURATION"
+    },
+    {
+      "id": "photo-06",
+      "url": "/images/personal/photo-06-gallery-chair-gaze.jpg",
+      "title": "FOCUSED OBSERVATION",
+      "subtitle": "Storyboarding concepts and rhythm in creative spaces",
+      "tag": "FOCUS"
+    },
+    {
+      "id": "photo-07",
+      "url": "/images/personal/photo-08-gallery-wide-standing.jpg",
+      "title": "IMMERSION",
+      "subtitle": "Absorbing visual history across gallery exhibits",
+      "tag": "IMMERSION"
+    },
+    {
+      "id": "photo-08",
+      "url": "/images/personal/photo-09-night-cafe-lights.jpg",
+      "title": "STREET DIARIES",
+      "subtitle": "Capturing ambient street textures and warm atmospheric light",
+      "tag": "LIFE"
+    }
+  ],
+  "fashionPhotography": [
+    {
+      "id": "fashion-1",
+      "title": "Red Curtain — Portrait",
+      "url": "/media/optimized/fashion/fashion-01.webp",
+      "subtitle": "Fashion photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    },
+    {
+      "id": "fashion-2",
+      "title": "Crimson Drapery",
+      "url": "/media/optimized/fashion/fashion-02.webp",
+      "subtitle": "Fashion photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    },
+    {
+      "id": "fashion-3",
+      "title": "The Dark Look",
+      "url": "/media/optimized/fashion/fashion-03.webp",
+      "subtitle": "Fashion photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    },
+    {
+      "id": "fashion-4",
+      "title": "Couture in Red",
+      "url": "/media/optimized/fashion/fashion-04.webp",
+      "subtitle": "Fashion photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    },
+    {
+      "id": "fashion-5",
+      "title": "On the Velvet Floor",
+      "url": "/media/optimized/fashion/fashion-05.webp",
+      "subtitle": "Fashion photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    },
+    {
+      "id": "fashion-6",
+      "title": "Night Portrait",
+      "url": "/media/optimized/fashion/fashion-06.webp",
+      "subtitle": "Fashion photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    },
+    {
+      "id": "fashion-7",
+      "title": "Street Duo",
+      "url": "/media/optimized/fashion/fashion-07.webp",
+      "subtitle": "Fashion photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    },
+    {
+      "id": "fashion-8",
+      "title": "First Flame",
+      "url": "/media/optimized/fashion/fashion-08.webp",
+      "subtitle": "Fashion photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    },
+    {
+      "id": "fashion-9",
+      "title": "Smoke & Saffron",
+      "url": "/media/optimized/fashion/fashion-09.webp",
+      "subtitle": "Fashion photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    },
+    {
+      "id": "fashion-10",
+      "title": "Firelight",
+      "url": "/media/optimized/fashion/fashion-10.webp",
+      "subtitle": "Fashion photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    },
+    {
+      "id": "fashion-11",
+      "title": "Last Light",
+      "url": "/media/optimized/fashion/fashion-11.webp",
+      "subtitle": "Fashion photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    }
+  ],
+  "logos": [
+    {
+      "id": "sirsha-1",
+      "title": "SIRSHA — Identity",
+      "url": "/media/optimized/sirsha/sirsha-01.webp",
+      "year": "2026",
+      "tag": "Client work",
+      "tools": [
+        "Illustrator",
+        "Photoshop"
+      ]
+    },
+    {
+      "id": "sirsha-2",
+      "title": "Brand concept",
+      "url": "/media/optimized/sirsha/sirsha-02.webp",
+      "year": "2026",
+      "tag": "Client work",
+      "tools": [
+        "Illustrator",
+        "Photoshop"
+      ]
+    },
+    {
+      "id": "sirsha-3",
+      "title": "Construction grid",
+      "url": "/media/optimized/sirsha/sirsha-03.webp",
+      "year": "2026",
+      "tag": "Client work",
+      "tools": [
+        "Illustrator",
+        "Photoshop"
+      ]
+    },
+    {
+      "id": "sirsha-4",
+      "title": "Typography",
+      "url": "/media/optimized/sirsha/sirsha-04.webp",
+      "year": "2026",
+      "tag": "Client work",
+      "tools": [
+        "Illustrator",
+        "Photoshop"
+      ]
+    },
+    {
+      "id": "sirsha-5",
+      "title": "Colour palette",
+      "url": "/media/optimized/sirsha/sirsha-05.webp",
+      "year": "2026",
+      "tag": "Client work",
+      "tools": [
+        "Illustrator",
+        "Photoshop"
+      ]
+    },
+    {
+      "id": "sirsha-6",
+      "title": "Logo variations",
+      "url": "/media/optimized/sirsha/sirsha-06.webp",
+      "year": "2026",
+      "tag": "Client work",
+      "tools": [
+        "Illustrator",
+        "Photoshop"
+      ]
+    },
+    {
+      "id": "sirsha-7",
+      "title": "Brand applications",
+      "url": "/media/optimized/sirsha/sirsha-07.webp",
+      "year": "2026",
+      "tag": "Client work",
+      "tools": [
+        "Illustrator",
+        "Photoshop"
+      ]
+    },
+    {
+      "id": "sirsha-8",
+      "title": "Merchandise",
+      "url": "/media/optimized/sirsha/sirsha-08.webp",
+      "year": "2026",
+      "tag": "Client work",
+      "tools": [
+        "Illustrator",
+        "Photoshop"
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "id": "video-1",
+      "projectNumber": "VIDEO 01",
+      "title": "The Mark, in Motion",
+      "category": "Video",
+      "client": "Personal study",
+      "year": "2026",
+      "role": "Editing · Motion · Sound",
+      "tools": [
+        "Premiere Pro"
+      ],
+      "description": "A short-form visual piece: The Mark, in Motion.",
+      "concept": "",
+      "aspect": "portrait",
+      "featured": false,
+      "size": "medium",
+      "videoUrl": "/media/videos/portfolio-video-01.mp4",
+      "thumbnail": "/media/video-thumbnails/video-01.jpg"
+    },
+    {
+      "id": "video-2",
+      "projectNumber": "VIDEO 02",
+      "title": "One Shot a Day",
+      "category": "Video",
+      "client": "Personal study",
+      "year": "2026",
+      "role": "Editing · Motion · Sound",
+      "tools": [
+        "Premiere Pro"
+      ],
+      "description": "A short-form visual piece: One Shot a Day.",
+      "concept": "",
+      "aspect": "portrait",
+      "featured": false,
+      "size": "medium",
+      "videoUrl": "/media/videos/portfolio-video-02.mp4",
+      "thumbnail": "/media/video-thumbnails/video-02.jpg"
+    },
+    {
+      "id": "video-3",
+      "projectNumber": "VIDEO 03",
+      "title": "What Held the Business Back",
+      "category": "Video",
+      "client": "Personal study",
+      "year": "2026",
+      "role": "Editing · Motion · Sound",
+      "tools": [
+        "Premiere Pro"
+      ],
+      "description": "A short-form visual piece: What Held the Business Back.",
+      "concept": "",
+      "aspect": "portrait",
+      "featured": false,
+      "size": "medium",
+      "videoUrl": "/media/videos/lv_0_20260422145845.mp4",
+      "thumbnail": "/media/video-thumbnails/video-03.jpg"
+    },
+    {
+      "id": "video-4",
+      "projectNumber": "VIDEO 04",
+      "title": "A Creator at Work",
+      "category": "Video",
+      "client": "Personal study",
+      "year": "2026",
+      "role": "Editing · Motion · Sound",
+      "tools": [
+        "Premiere Pro"
+      ],
+      "description": "A short-form visual piece: A Creator at Work.",
+      "concept": "",
+      "aspect": "portrait",
+      "featured": false,
+      "size": "medium",
+      "videoUrl": "/media/videos/lv_0_20260504111607.mp4",
+      "thumbnail": "/media/video-thumbnails/video-04.jpg"
+    },
+    {
+      "id": "video-5",
+      "projectNumber": "VIDEO 05",
+      "title": "Refused to Be Dismissed",
+      "category": "Video",
+      "client": "Personal study",
+      "year": "2026",
+      "role": "Editing · Motion · Sound",
+      "tools": [
+        "Premiere Pro"
+      ],
+      "description": "A short-form visual piece: Refused to Be Dismissed.",
+      "concept": "",
+      "aspect": "portrait",
+      "featured": false,
+      "size": "medium",
+      "videoUrl": "/media/videos/lv_0_20260514115448.mp4",
+      "thumbnail": "/media/video-thumbnails/video-05.jpg"
+    },
+    {
+      "id": "video-6",
+      "projectNumber": "VIDEO 06",
+      "title": "The Value of a Note",
+      "category": "Video",
+      "client": "Personal study",
+      "year": "2026",
+      "role": "Editing · Motion · Sound",
+      "tools": [
+        "Premiere Pro"
+      ],
+      "description": "A short-form visual piece: The Value of a Note.",
+      "concept": "",
+      "aspect": "portrait",
+      "featured": false,
+      "size": "medium",
+      "videoUrl": "/media/videos/New%20Project%2010%20-7827B03-.mp4",
+      "thumbnail": "/media/video-thumbnails/video-06.jpg"
+    },
+    {
+      "id": "video-7",
+      "projectNumber": "VIDEO 07",
+      "title": "One More Thing",
+      "category": "Video",
+      "client": "Personal study",
+      "year": "2026",
+      "role": "Editing · Motion · Sound",
+      "tools": [
+        "Premiere Pro"
+      ],
+      "description": "A short-form visual piece: One More Thing.",
+      "concept": "",
+      "aspect": "portrait",
+      "featured": false,
+      "size": "medium",
+      "videoUrl": "/media/videos/New%20Project%202%20-68B66D8-.mp4",
+      "thumbnail": "/media/video-thumbnails/video-07.jpg"
+    },
+    {
+      "id": "video-8",
+      "projectNumber": "VIDEO 08",
+      "title": "The Businessman",
+      "category": "Video",
+      "client": "Personal study",
+      "year": "2026",
+      "role": "Editing · Motion · Sound",
+      "tools": [
+        "Premiere Pro"
+      ],
+      "description": "A short-form visual piece: The Businessman.",
+      "concept": "",
+      "aspect": "portrait",
+      "featured": false,
+      "size": "medium",
+      "videoUrl": "/media/videos/VID_20260914_170736_048.mp4",
+      "thumbnail": "/media/video-thumbnails/video-08.jpg"
+    },
+    {
+      "id": "video-9",
+      "projectNumber": "VIDEO 09",
+      "title": "Art of Gifting, India",
+      "category": "Video",
+      "client": "Personal study",
+      "year": "2026",
+      "role": "Editing · Motion · Sound",
+      "tools": [
+        "Premiere Pro"
+      ],
+      "description": "A short-form visual piece: Art of Gifting, India.",
+      "concept": "",
+      "aspect": "portrait",
+      "featured": false,
+      "size": "medium",
+      "videoUrl": "/media/videos/VID_20261025_211936_055.mp4",
+      "thumbnail": "/media/video-thumbnails/video-09.jpg"
+    },
+    {
+      "id": "video-10",
+      "projectNumber": "VIDEO 10",
+      "title": "Your Next Customer",
+      "category": "Video",
+      "client": "Personal study",
+      "year": "2026",
+      "role": "Editing · Motion · Sound",
+      "tools": [
+        "Premiere Pro"
+      ],
+      "description": "A short-form visual piece: Your Next Customer.",
+      "concept": "",
+      "aspect": "portrait",
+      "featured": false,
+      "size": "medium",
+      "videoUrl": "/media/videos/portfolio-video-10.mp4",
+      "thumbnail": "/media/video-thumbnails/video-10.jpg"
+    },
+    {
+      "id": "video-11",
+      "projectNumber": "VIDEO 11",
+      "title": "Coming Up Next",
+      "category": "Video",
+      "client": "Personal study",
+      "year": "2026",
+      "role": "Editing · Motion · Sound",
+      "tools": [
+        "Premiere Pro"
+      ],
+      "description": "A short-form visual piece: Coming Up Next.",
+      "concept": "",
+      "aspect": "portrait",
+      "featured": false,
+      "size": "medium",
+      "videoUrl": "/media/videos/portfolio-video-11.mp4",
+      "thumbnail": "/media/video-thumbnails/video-11.jpg"
+    },
+    {
+      "id": "video-12",
+      "projectNumber": "VIDEO 12",
+      "title": "Dear, La",
+      "category": "Video",
+      "client": "Personal study",
+      "year": "2026",
+      "role": "Editing · Motion · Sound",
+      "tools": [
+        "Premiere Pro"
+      ],
+      "description": "A short-form visual piece: Dear, La.",
+      "concept": "",
+      "aspect": "portrait",
+      "featured": false,
+      "size": "medium",
+      "videoUrl": "/media/videos/vidssave.com%20Nani%20Ka%20Ghar%20720P.mp4",
+      "thumbnail": "/media/video-thumbnails/video-12.jpg"
+    },
+    {
+      "id": "video-13",
+      "projectNumber": "VIDEO 13",
+      "title": "Qutub Minar After Dark",
+      "category": "Video",
+      "client": "Personal study",
+      "year": "2026",
+      "role": "Editing · Motion · Sound",
+      "tools": [
+        "Premiere Pro"
+      ],
+      "description": "A short-form visual piece: Qutub Minar After Dark.",
+      "concept": "",
+      "aspect": "portrait",
+      "featured": false,
+      "size": "medium",
+      "videoUrl": "/media/videos/portfolio-video-13.mp4",
+      "thumbnail": "/media/video-thumbnails/video-13.jpg"
+    }
+  ],
+  "sirshaSlides": [
+    {
+      "id": "sirsha-1",
+      "title": "SIRSHA — Identity",
+      "url": "/media/optimized/sirsha/sirsha-01.webp",
+      "year": "2026",
+      "tag": "Client work",
+      "tools": [
+        "Illustrator",
+        "Photoshop"
+      ]
+    },
+    {
+      "id": "sirsha-2",
+      "title": "Brand concept",
+      "url": "/media/optimized/sirsha/sirsha-02.webp",
+      "year": "2026",
+      "tag": "Client work",
+      "tools": [
+        "Illustrator",
+        "Photoshop"
+      ]
+    },
+    {
+      "id": "sirsha-3",
+      "title": "Construction grid",
+      "url": "/media/optimized/sirsha/sirsha-03.webp",
+      "year": "2026",
+      "tag": "Client work",
+      "tools": [
+        "Illustrator",
+        "Photoshop"
+      ]
+    },
+    {
+      "id": "sirsha-4",
+      "title": "Typography",
+      "url": "/media/optimized/sirsha/sirsha-04.webp",
+      "year": "2026",
+      "tag": "Client work",
+      "tools": [
+        "Illustrator",
+        "Photoshop"
+      ]
+    },
+    {
+      "id": "sirsha-5",
+      "title": "Colour palette",
+      "url": "/media/optimized/sirsha/sirsha-05.webp",
+      "year": "2026",
+      "tag": "Client work",
+      "tools": [
+        "Illustrator",
+        "Photoshop"
+      ]
+    },
+    {
+      "id": "sirsha-6",
+      "title": "Logo variations",
+      "url": "/media/optimized/sirsha/sirsha-06.webp",
+      "year": "2026",
+      "tag": "Client work",
+      "tools": [
+        "Illustrator",
+        "Photoshop"
+      ]
+    },
+    {
+      "id": "sirsha-7",
+      "title": "Brand applications",
+      "url": "/media/optimized/sirsha/sirsha-07.webp",
+      "year": "2026",
+      "tag": "Client work",
+      "tools": [
+        "Illustrator",
+        "Photoshop"
+      ]
+    },
+    {
+      "id": "sirsha-8",
+      "title": "Merchandise",
+      "url": "/media/optimized/sirsha/sirsha-08.webp",
+      "year": "2026",
+      "tag": "Client work",
+      "tools": [
+        "Illustrator",
+        "Photoshop"
+      ]
+    }
+  ],
+  "posterBackdrop": "/media/optimized/posters/poster-03.webp",
+  "portraitPhotography": [
+    {
+      "id": "portrait-1",
+      "title": "IMG 0831",
+      "url": "/media/optimized/portraits/portrait-01.webp",
+      "subtitle": "Portrait photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    },
+    {
+      "id": "portrait-2",
+      "title": "IMG 0832",
+      "url": "/media/optimized/portraits/portrait-02.webp",
+      "subtitle": "Portrait photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    },
+    {
+      "id": "portrait-3",
+      "title": "IMG 0833",
+      "url": "/media/optimized/portraits/portrait-03.webp",
+      "subtitle": "Portrait photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    }
+  ],
+  "productPhotography": [
+    {
+      "id": "product-1",
+      "title": "IMG 5652 2.HEIC (1)",
+      "url": "/media/optimized/products/product-01.webp",
+      "subtitle": "Product photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    },
+    {
+      "id": "product-2",
+      "title": "IMG 5818 2.HEIC (1)",
+      "url": "/media/optimized/products/product-02.webp",
+      "subtitle": "Product photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    },
+    {
+      "id": "product-3",
+      "title": "IMG 5828.HEIC",
+      "url": "/media/optimized/products/product-03.webp",
+      "subtitle": "Product photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    },
+    {
+      "id": "product-4",
+      "title": "IMG 5949.HEIC",
+      "url": "/media/optimized/products/product-04.webp",
+      "subtitle": "Product photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    },
+    {
+      "id": "product-5",
+      "title": "IMG 5967.HEIC (1)",
+      "url": "/media/optimized/products/product-05.webp",
+      "subtitle": "Product photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    },
+    {
+      "id": "product-6",
+      "title": "IMG 5988.HEIC",
+      "url": "/media/optimized/products/product-06.webp",
+      "subtitle": "Product photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    },
+    {
+      "id": "product-7",
+      "title": "IMG 6003.HEIC (4)",
+      "url": "/media/optimized/products/product-07.webp",
+      "subtitle": "Product photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    },
+    {
+      "id": "product-8",
+      "title": "IMG 20261107 WA0014",
+      "url": "/media/optimized/products/product-08.webp",
+      "subtitle": "Product photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    }
+  ]
+}

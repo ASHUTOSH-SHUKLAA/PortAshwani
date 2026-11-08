@@ -1,0 +1,197 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    --ink: #0d0b0b;
+    --red: #b3121b;
+    --gold: #c9a45c;
+    --paper: #f1eee6;
+    --lime: #c8ff4d;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    background-color: #0d0b0b;
+    color: #f1eee6;
+  }
+
+  section[id], div[id] {
+    scroll-margin-top: 5.5rem;
+  }
+
+  body {
+    background-color: #0d0b0b;
+    color: #f1eee6;
+    font-family: 'DM Sans', sans-serif;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  ::selection {
+    background-color: #c8ff4d;
+    color: #0d0b0b;
+  }
+
+  /* Custom Slim Scrollbar */
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #0d0b0b;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #2c2927;
+    border-radius: 2px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #c8ff4d;
+  }
+
+  /* Accessible Focus States */
+  :focus-visible {
+    outline: 2px solid #c8ff4d;
+    outline-offset: 3px;
+  }
+}
+
+@layer utilities {
+  /* Lime stays reserved for controls and interaction; editorial labels use warm gold. */
+  .text-\[\#c8ff4d\] {
+    color: var(--gold) !important;
+  }
+
+  /* Subtle architectural grid lines (as seen in screenshot 1) */
+  .bg-grid-pattern {
+    background-image: 
+      linear-gradient(to right, rgba(241, 238, 230, 0.04) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(241, 238, 230, 0.04) 1px, transparent 1px);
+    background-size: 80px 80px;
+  }
+
+  .bg-grid-dense {
+    background-image: 
+      linear-gradient(to right, rgba(241, 238, 230, 0.025) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(241, 238, 230, 0.025) 1px, transparent 1px);
+    background-size: 32px 32px;
+  }
+
+  /* Restrained film grain */
+  .film-grain::after {
+    content: '';
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
+    background-repeat: repeat;
+    background-size: 160px 160px;
+    opacity: 0.035;
+    pointer-events: none;
+    z-index: 9999;
+  }
+
+  .fashion-frame::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.04;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
+  }
+
+  /* Underline transition (180ms - 250ms) */
+  .hover-underline {
+    position: relative;
+  }
+
+  .hover-underline::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: #c8ff4d;
+    transition: width 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .hover-underline:hover::after {
+    width: 100%;
+  }
+
+  /* Reduced Motion */
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+/* Typography Scale matching ChatGPT Specifications */
+.heading-hero {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(2.35rem, 8.5vw, 6.75rem); /* Scales smoothly down to 360px phones without text collision */
+  font-weight: 700;
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+}
+
+.heading-section {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(1.85rem, 5.5vw, 4rem);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+}
+
+.heading-project {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(1.6rem, 3.2vw, 2.75rem); /* 32px - 44px */
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+.body-lead {
+  font-family: 'DM Sans', sans-serif;
+  font-size: clamp(1.05rem, 1.25vw, 1.25rem); /* 17px - 20px */
+  font-weight: 400;
+  line-height: 1.6;
+  color: #cbc4b5;
+}
+
+.body-regular {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1rem; /* 16px */
+  line-height: 1.65;
+  color: #8a8a84;
+}
+
+.label-meta {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.75rem; /* 12px */
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.serif-editorial {
+  font-family: 'Instrument Serif', serif;
+  font-style: italic;
+  font-weight: 400;
+}
