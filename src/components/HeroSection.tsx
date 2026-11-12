@@ -15,7 +15,6 @@ export default function HeroSection() {
         aria-label="Introduction hero"
       >
         <div className="absolute inset-0 z-0 pointer-events-none bg-[radial-gradient(ellipse_at_76%_42%,rgba(179,18,27,.42),transparent_42%),linear-gradient(115deg,#0d0b0b_8%,#211011_56%,#0d0b0b_100%)]" />
-        <div aria-hidden="true" className="absolute z-[1] pointer-events-none right-[-5vw] top-[18%] sm:top-[20%] text-[clamp(4rem,14vw,15rem)] leading-none font-display font-bold tracking-[-.09em] text-[#f1eee6]/10 select-none">CUTTING</div>
 
         {/* Centerpiece Hero Cutout — Fully Visible on BOTH Mobile and Desktop */}
         <div className="absolute z-[2] bottom-0 right-[-8%] sm:right-[2%] lg:right-[8%] h-[50vh] sm:h-[62vh] md:h-[78vh] max-h-[820px] w-[86vw] sm:w-[65vw] md:w-[48vw] max-w-[650px] pointer-events-none">
@@ -40,7 +39,7 @@ export default function HeroSection() {
             <div className="flex items-center gap-3">
               <span className="label-meta text-[#8a8a84] text-[10px] sm:text-xs">INDEPENDENT CREATIVE / INDIA</span>
               <span className="w-6 sm:w-8 h-px bg-[#2c2927]" aria-hidden="true" />
-              <span className="label-meta text-[#c9a45c] font-semibold text-[10px] sm:text-xs">AVAILABLE FOR COMMISSIONS</span>
+              <span className="label-meta text-[#c9a45c] font-semibold text-[10px] sm:text-xs">AVAILABLE FOR Freelance</span>
             </div>
             <div className="label-meta text-[#8a8a84] text-[10px] sm:text-xs hidden sm:block">PORTFOLIO / 2026</div>
           </motion.div>
@@ -49,16 +48,6 @@ export default function HeroSection() {
         {/* Main Center Content */}
         <div className="max-w-[1280px] w-full mx-auto px-5 lg:px-20 relative z-10 py-8 sm:py-12 md:py-16">
           <div className="max-w-3xl relative z-10">
-            {/* Tagline */}
-            <motion.p
-              initial={{ opacity: 0, y: 15 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.1 }}
-              className="label-meta text-[#8a8a84] tracking-widest mb-3 sm:mb-4 block text-[10px] sm:text-xs"
-            >
-              NOT JUST DESIGN. A WAY OF SEEING.
-            </motion.p>
-
             {/* Oversized Headline */}
             <motion.h1
               initial={{ opacity: 0, y: 25 }}
@@ -68,7 +57,7 @@ export default function HeroSection() {
             >
               Ashwani
               <br />
-              <span className="text-[#c9a45c]">A way of seeing.</span>
+              <span className="text-[#c9a45c]">{EDITOR_INFO.headlineAccent}</span>
             </motion.h1>
 
             {/* Body Description */}

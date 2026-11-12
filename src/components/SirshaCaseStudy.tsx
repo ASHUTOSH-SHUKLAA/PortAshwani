@@ -76,9 +76,6 @@ export default function SirshaCaseStudy({ onBack, onContact }: SirshaCaseStudyPr
         <span className="hidden text-[10px] font-mono uppercase tracking-[.2em] text-[#c9a45c] sm:block">
           ASHWANI® / IDENTITY CASE STUDY
         </span>
-        <span className="text-xs font-mono text-[#f1eee6]/70">
-          {String(active + 1).padStart(2, '0')} <span className="text-[#c9a45c]">/</span> {String(SIRSHA_SLIDES.length).padStart(2, '0')}
-        </span>
       </header>
 
       <section className="mx-auto grid min-h-screen max-w-[1440px] grid-cols-1 items-center gap-8 px-5 pb-24 pt-24 md:grid-cols-12 md:px-10 lg:px-20">

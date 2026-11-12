@@ -8,9 +8,10 @@ const chapters = [
   { time: '00:04', title: 'Logos', id: 'logos', thumb: '/media/optimized/sirsha/sirsha-01.webp' },
   { time: '00:05', title: 'Portraits', id: 'portraits', thumb: '/media/optimized/portraits/portrait-01.webp' },
   { time: '00:06', title: 'Products', id: 'products', thumb: '/media/optimized/products/product-01.webp' },
-  { time: '00:07', title: 'About', id: 'about', thumb: '/images/profile.jpg' },
-  { time: '00:08', title: 'Toolkit', id: 'toolkit', thumb: '/images/profile.jpg' },
-  { time: '00:09', title: 'Contact', id: 'contact', thumb: '/images/profile.jpg' },
+  { time: '00:07', title: 'Street', id: 'street', thumb: '/media/optimized/street/street-01.webp' },
+  { time: '00:08', title: 'About', id: 'about', thumb: '/images/profile.jpg' },
+  { time: '00:09', title: 'Toolkit', id: 'toolkit', thumb: '/images/profile.jpg' },
+  { time: '00:10', title: 'Contact', id: 'contact', thumb: '/images/profile.jpg' },
 ];
 
 export default function ChapterIndex() {

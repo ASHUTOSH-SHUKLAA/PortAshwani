@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
-import { ArrowUpRight, Maximize2, X } from 'lucide-react';
+import { Maximize2, X } from 'lucide-react';
 import { POSTERS_ARCHIVE, PosterItem } from '../data/config';
 
 export default function PostersSection() {
@@ -16,30 +16,24 @@ export default function PostersSection() {
       </div>
 
       <div className="relative z-10 max-w-[1440px] mx-auto min-h-[68vh] px-5 lg:px-20 flex items-end pb-16 md:pb-24 overflow-hidden">
-        <span className="absolute left-5 lg:left-20 top-[15%] label-meta text-[#f1eee6]/75">CHAPTER 02 / PERSONAL KEY ART</span>
+        <span className="absolute left-5 lg:left-20 top-[15%] label-meta text-[#f1eee6]/75">PERSONAL KEY ART / POSTER COLLECTION</span>
         <h2 className="relative z-10 font-display text-[clamp(2.2rem,8vw,8rem)] leading-[.82] tracking-[-.075em] font-bold text-[#f1eee6]">PEAKY BLINDERS</h2>
         <img src="/images/peaky-figure-cutout.png" alt="" aria-hidden="true" className="absolute z-20 bottom-0 left-[29%] h-[88%] max-h-[680px] w-[44%] max-w-[600px] object-contain object-bottom pointer-events-none drop-shadow-[0_12px_40px_rgba(0,0,0,.5)]" />
         <div className="absolute z-30 bottom-7 right-5 lg:right-20 label-meta text-[#c9a45c]">PEAKY BLINDERS / BATMAN / EDITORIAL</div>
       </div>
 
-      <div className="relative z-30 max-w-[1440px] mx-auto bg-[#f1eee6] text-[#0d0b0b] px-5 lg:px-16 py-14 md:py-20 shadow-[0_-24px_80px_rgba(0,0,0,.28)]">
-        <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10 border-b border-[#0d0b0b]/15 pb-7">
-          <div><span className="label-meta text-[#b3121b] block mb-3">SELECTED WORK / 02</span><h3 className="heading-project text-[clamp(2rem,4vw,3.5rem)]">Key art &amp; poster design</h3></div>
-          <p className="max-w-md text-sm leading-relaxed text-[#5d5750] md:text-right">Film tributes, character posters and independent visual explorations. Hover Batman artwork to shift the chapter backdrop.</p>
+      <div className="relative z-30 mx-auto max-w-[1440px] bg-[#0d0b0b] px-5 py-12 text-[#f1eee6] md:px-10 md:py-16 lg:px-16">
+        <div className="mb-8 flex flex-col justify-between gap-6 border-b border-white/15 pb-7 md:mb-10 md:flex-row md:items-end">
+          <div><span className="label-meta mb-3 block text-[#c9a45c]">POSTER ARCHIVE</span><h3 className="heading-project text-[clamp(2rem,4vw,3.5rem)]">Key art &amp; poster design</h3></div>
+          <p className="max-w-md text-sm leading-relaxed text-[#cbc4b5] md:text-right">Film tributes, character posters and independent visual explorations. Hover Batman artwork to shift the chapter backdrop.</p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-7">
-          {POSTERS_ARCHIVE.map((item, index) => <motion.article key={item.id} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-40px' }} transition={{ duration: .45, delay: index * .04 }} onMouseEnter={() => setHoveredPoster(item)} onClick={() => setSelectedPoster(item)} className="group bg-[#faf8f0] p-3 cursor-pointer shadow-[0_12px_32px_rgba(22,15,10,.09)] hover:shadow-[0_18px_38px_rgba(22,15,10,.16)] transition-shadow" role="button" tabIndex={0} onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setSelectedPoster(item); } }} aria-label={`View poster: ${item.title}`}>
-            <div className="relative aspect-[3/4] overflow-hidden bg-[#171414]">
-              <img src={item.image} alt={item.title} loading="lazy" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.035]" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/35 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
-              <span className="absolute top-3 left-3 rounded-full bg-[#0d0b0b]/85 px-3 py-1 text-[9px] font-mono tracking-wider text-[#f1eee6]">{item.tag}</span>
-              <span className="absolute right-3 bottom-3 w-9 h-9 rounded-full bg-[#f1eee6] flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity"><Maximize2 size={15}/></span>
-            </div>
-            <div className="px-2 pt-4 pb-2">
-              <div className="flex items-center justify-between text-[10px] font-mono uppercase tracking-[.14em] text-[#776f63]"><span>{item.category}</span><span>{item.year}</span></div>
-              <h4 className="mt-2 text-lg font-display font-semibold leading-tight">{item.title}</h4>
-              <div className="mt-3 flex items-center justify-between border-t border-black/10 pt-3"><div className="flex gap-2 text-[10px] font-mono text-[#6e675d]">{item.tools.map((tool) => <span key={tool}>{tool}</span>)}</div><ArrowUpRight size={14} className="text-[#b3121b]" /></div>
-            </div>
+        <div className="columns-2 gap-2 sm:columns-3 lg:columns-4 lg:gap-3">
+          {POSTERS_ARCHIVE.map((item, index) => <motion.article key={item.id} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-40px' }} transition={{ duration: .45, delay: index * .035 }} onMouseEnter={() => setHoveredPoster(item)} onClick={() => setSelectedPoster(item)} className="group relative mb-2 block cursor-pointer break-inside-avoid overflow-hidden bg-[#171414] lg:mb-3" role="button" tabIndex={0} onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setSelectedPoster(item); } }} aria-label={`View poster: ${item.title}`}>
+              <img src={item.image} alt={item.title} loading="lazy" className="block h-auto w-full object-contain transition-transform duration-700 group-hover:scale-[1.015]" />
+              <div className="absolute inset-x-0 bottom-0 flex translate-y-2 items-end justify-between gap-2 bg-gradient-to-t from-black/85 via-black/25 to-transparent p-3 pt-12 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100 focus-within:translate-y-0 sm:p-4 sm:pt-16">
+                <div><span className="block text-[9px] font-mono uppercase tracking-[.14em] text-[#c9a45c]">{item.category} · {item.year}</span><h4 className="mt-1 font-display text-sm font-semibold leading-tight text-white sm:text-base">{item.title}</h4></div>
+                <Maximize2 size={15} className="mb-0.5 shrink-0 text-[#c8ff4d]" />
+              </div>
           </motion.article>)}
         </div>
       </div>

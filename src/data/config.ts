@@ -14,16 +14,15 @@ export const EDITOR_INFO = {
   location: 'India',
   email: 'ashwanishukla16jan@gmail.com',
   whatsapp: '+91 9770483109',
-  instagram: 'https://www.instagram.com/chaiwithashwanii/',
+  instagram: 'https://www.instagram.com/eyerawx/',
   linkedin: 'https://linkedin.com/',
   heroLabelTop: '',
   heroAvailability: '',
   headlineLead: 'Ashwani',
-  headlineAccent: 'A way of seeing.',
-  bioShort: 'I create considered images, identities, and films — work shaped by strong composition, clear ideas, and a cinematic eye.',
-  bioFull: "I'm Ashwani shukla, someone who can never stay too far from a screen whether it's my phone, laptop, or my beloved cameras. I love creating things, be it designing visuals, editing videos, or capturing moments that tell a story.",
+  headlineAccent: 'I’m fluent in silence.',
+  bioShort: 'I love creating things, be it designing visuals, editing videos, or capturing moments that tell a story.',
+  bioFull: "I'm Ashwani Shukla — an editor, filmmaker, and visual storyteller from Delhi, currently pursuing a B.A. in Psychology Honours at the University of Delhi. For the past 2 years, I've worked across content creation, media, and event management, turning briefs into visuals that actually hold attention.\n\nAs Social Media Head of my college's Photography & Filmmaking Society, I lead content and promotions for intra- and inter-college events, managing everything from shoot to final edit. As a freelance content creator, I produce short-form videos, cinematic reels, and brand films for clients who want work that feels distinct, not templated. My portfolio spans product photography, fashion shoots, and brand storytelling, built on hands-on experience with creative software and applications.",
   experience: 'Specializing in graphic identity, high-impact motion reels, narrative filmmaking, and cinematic color grading.',
-  profileImage: '/images/personal/photo-10-casual-portrait.jpg',
   heroVideoUrl: '/media/videos/portfolio-video-01.mp4', // Looping video showreel
   heroVideoPoster: '/images/hero-poster.jpg', // Midnight architectural stairs portrait
   showreelUrl: '/media/videos/portfolio-video-01.mp4',
@@ -43,7 +42,6 @@ export type ProjectCategory =
 
 export interface Project {
   id: string;
-  projectNumber: string;
   title: string;
   category: ProjectCategory;
   client: string;
@@ -65,7 +63,6 @@ export const PROJECTS = portfolio.projects as Project[];
 
 export interface PosterItem {
   id: string;
-  number: string;
   title: string;
   category: string;
   tag: string;
@@ -91,6 +88,7 @@ export const VIDEO_ARCHIVE = portfolio.videos as Project[];
 export const FASHION_GALLERY = portfolio.fashionPhotography as PersonalPhoto[];
 export const PORTRAIT_GALLERY = (portfolio.portraitPhotography || []) as PersonalPhoto[];
 export const PRODUCT_GALLERY = (portfolio.productPhotography || []) as PersonalPhoto[];
+export const STREET_GALLERY = (portfolio.streetPhotography || []) as PersonalPhoto[];
 export const LOGO_GALLERY = portfolio.logos as Array<{ id: string; url: string; title: string }>;
 export const SIRSHA_SLIDES = portfolio.sirshaSlides as Array<{ id: string; title: string; url: string; year: string; tag: string; tools: string[] }>;
 export const POSTER_BACKDROP = portfolio.posterBackdrop as string;
@@ -173,12 +171,16 @@ export interface ToolItem {
   proficiency: string;
   color: string;
   description: string;
+  icon: string;
 }
 
 export const TOOLKIT: ToolItem[] = [
-  { name: 'Adobe Premiere Pro', category: 'Editorial', role: 'Primary narrative editing suite', proficiency: 'Master', color: '#9999FF', description: 'Industry-standard timeline editing and assembly.' },
-  { name: 'Adobe Photoshop', category: 'Design', role: 'Poster manipulation & mockups', proficiency: 'Expert', color: '#31A8FF', description: 'Key art creation, typography, and texture synthesis.' },
-  { name: 'Figma', category: 'UI / Layout', role: 'Design systems & typography grid', proficiency: 'Expert', color: '#0ACF83', description: 'Layout grids, design systems, and artboards.' },
+  { name: 'Photoshop', category: 'Design', role: 'Image editing', proficiency: 'Advanced', color: '#31A8FF', description: 'Image compositing and artwork.', icon: '/images/software/photoshop.svg' },
+  { name: 'Ai', category: 'Design', role: 'Vector design', proficiency: 'Advanced', color: '#FF9A00', description: 'Vector graphics and identity design.', icon: '/images/software/illustrator.svg' },
+  { name: 'Lightroom', category: 'Photography', role: 'Photo editing', proficiency: 'Advanced', color: '#35A8FF', description: 'Photo adjustments and colour work.', icon: '/images/software/lightroom.svg' },
+  { name: 'Pr', category: 'Editing', role: 'Video editing', proficiency: 'Advanced', color: '#9999FF', description: 'Video editing and assembly.', icon: '/images/software/premiere-pro.svg' },
+  { name: 'CapCut', category: 'Editing', role: 'Short-form video', proficiency: 'Advanced', color: '#0D0B0B', description: 'Short-form video editing.', icon: '/images/software/capcut.svg' },
+  { name: 'Canva', category: 'Design', role: 'Creative design', proficiency: 'Advanced', color: '#7C35E8', description: 'Layouts and visual assets.', icon: '/images/software/canva.svg' },
 ];
 
 // ============================================================

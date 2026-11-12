@@ -22,7 +22,7 @@ export default function Footer() {
           {/* Controls: Instagram & Top Button */}
           <div className="flex items-center gap-3">
             <a
-              href="https://www.instagram.com/chaiwithashwanii/"
+              href="https://www.instagram.com/eyerawx/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2.5 border border-[#2c2927] hover:border-[#c8ff4d] text-[#8a8a84] hover:text-[#c8ff4d] transition-colors flex items-center justify-center cursor-pointer"

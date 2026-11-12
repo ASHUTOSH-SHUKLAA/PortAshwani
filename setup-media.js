@@ -83,7 +83,7 @@ for (const [index, name] of videoSources.entries()) {
 manifest.videos = videoSources.map((name, index) => {
   const alias = videoAliases.get(index);
   return {
-    id: `video-${index + 1}`, projectNumber: `VIDEO ${String(index + 1).padStart(2, '0')}`,
+    id: `video-${index + 1}`,
     title: videoTitles[index] || path.basename(name, path.extname(name)), category: 'Video',
     client: 'Personal study', year: '2026', role: 'Editing · Motion · Sound', tools: ['Premiere Pro'],
     description: videoTitles[index] ? `A short-form visual piece: ${videoTitles[index]}.` : 'A short-form edit from the visual archive.',
@@ -108,7 +108,7 @@ manifest.posters = uniqueImages(postersDir).map((name, index) => {
   const [title, category] = posterTitles.get(name) || [path.basename(name, path.extname(name)).replace(/[-_]+/g, ' '), 'Poster design'];
   const output = `poster-${String(index + 1).padStart(2, '0')}.webp`;
   makeWebp(path.join(postersDir, name), path.join(mediaDir, 'optimized', 'posters', output));
-  return { id: `poster-${index + 1}`, number: String(index + 1).padStart(2, '0'), title, category, tag: 'Personal study', year: '2026', tools: ['Photoshop', 'Illustrator'], image: mediaUrl('media', 'optimized', 'posters', output), description: `${category} developed as a personal visual exploration.` };
+  return { id: `poster-${index + 1}`, title, category, tag: 'Personal study', year: '2026', tools: ['Photoshop', 'Illustrator'], image: mediaUrl('media', 'optimized', 'posters', output), description: `${category} developed as a personal visual exploration.` };
 });
 manifest.posterBackdrop = manifest.posters.find((poster) => poster.title === 'PEAKY BLINDERS — THE FAMILY')?.image || manifest.posters.find((poster) => poster.title.startsWith('PEAKY BLINDERS'))?.image || manifest.posters[0]?.image || '';
 
@@ -124,15 +124,40 @@ manifest.fashionPhotography = fashionOrder.filter((name) => fs.existsSync(path.j
 function buildPhotographyCollection(folder, outputFolder, prefix, label) {
   const directory = path.join(mediaDir, 'photography', folder);
   const titles = uniqueImages(directory);
+  const collectionNames = {
+    'IMG_0831.PNG': 'Street portrait', 'IMG_0832.PNG': 'Market portrait', 'IMG_0833.PNG': 'Craft portrait',
+    '20260112_140651 (2).jpg': 'A moment in the fabric market',
+    'DOC-20260522-WA0032.jpg': 'A pause in the old lanes',
+    'DSC00588.jpg': 'Under the canvas',
+    'DSC00933 (1) (3).jpg': 'Rickshaw portrait',
+    'DSC04234 (1).jpg': 'At the workbench',
+    'DSC04339.jpg': 'The barber at the window',
+    'DSC08492 (1).jpg': 'Durga in warm light',
+    'DSC08582 (1).jpg': 'Durga in blue light',
+    'DSC08599.jpg': 'The artisan’s gaze',
+    'DSC08639.jpg': 'A portrait in colour',
+    'DSC08865.jpg': 'The maker at work',
+    'IMG_1795 (1).jpg': 'Between customers',
+    'IMG36001.png': 'A view from the driver’s seat',
+    'DOC-20260408-WA0066.jpg': 'Market colours', 'DOC-20260415-WA0053.jpg': 'Red on the street',
+    'IMG_20251127_005650_068.JPG': 'A quiet pause', 'IMG-20260602-WA0036 (3).jpg': 'City in the mirror',
+    'IMG_5652 2.HEIC (1).jpg': 'Colourful bottle arrangement', 'IMG_5818 2.HEIC (1).jpg': 'Window light study',
+    'IMG_5828.HEIC.jpg': 'Product display', 'IMG_5949.HEIC.jpg': 'Blue bottle still life',
+    'IMG_5967.HEIC (1).jpg': 'Water and colour', 'IMG_5988.HEIC.jpg': 'Colour lineup',
+    'IMG_6003.HEIC (4).jpg': 'Warm tabletop study', 'IMG-20261107-WA0014.jpg': 'Studio still life',
+  };
   return titles.map((name, index) => {
-    const output = `${prefix}-${String(index + 1).padStart(2, '0')}.webp`;
+    const output = prefix === 'portrait' && name === 'DOC-20260522-WA0032.jpg'
+      ? 'portrait-old-lanes.webp'
+      : `${prefix}-${String(index + 1).padStart(2, '0')}.webp`;
     makeWebp(path.join(directory, name), path.join(mediaDir, 'optimized', outputFolder, output));
-    const title = path.basename(name, path.extname(name)).replace(/[-_]+/g, ' ').replace(/\s+/g, ' ').trim();
+    const title = collectionNames[name] || label;
     return { id: `${prefix}-${index + 1}`, title: title || `${label} ${index + 1}`, url: mediaUrl('media', 'optimized', outputFolder, output), subtitle: `${label} · 2026`, tag: 'Personal study', year: '2026' };
   });
 }
 manifest.portraitPhotography = buildPhotographyCollection('Potraits photography', 'portraits', 'portrait', 'Portrait photography');
 manifest.productPhotography = buildPhotographyCollection('Product photography', 'products', 'product', 'Product photography');
+manifest.streetPhotography = buildPhotographyCollection('Street photography', 'street', 'street', 'Street photography');
 
 const logoDir = path.join(publicDir, 'Logo Design');
 const sirshaOrder = [
@@ -149,6 +174,11 @@ manifest.sirshaSlides = sirshaOrder.filter((name) => fs.existsSync(path.join(log
   return { id: `sirsha-${index + 1}`, title: sirshaTitles[index], url: mediaUrl('media', 'optimized', 'sirsha', output), year: '2026', tag: 'Client work', tools: ['Illustrator', 'Photoshop'] };
 });
 manifest.logos = manifest.sirshaSlides;
+manifest.projects = (manifest.projects || []).map((project) => {
+  const cleaned = { ...project };
+  delete cleaned.projectNumber;
+  return cleaned;
+});
 
 fs.writeFileSync(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`);
 console.log(`Updated manifest: ${manifest.videos.length} videos, ${manifest.posters.length} unique posters, ${manifest.fashionPhotography.length} fashion images, ${manifest.portraitPhotography.length} portraits, ${manifest.productPhotography.length} product photos and ${manifest.sirshaSlides.length} Sirsha slides.`);

@@ -119,9 +119,9 @@ export default function ProjectModal({ project, projects, onClose, onNavigate }:
             {/* Top Modal Bar */}
             <div className="flex items-center justify-between border-b border-[#2c2927] pb-5 mb-8">
               <div className="flex items-center gap-3">
-                <span className="label-meta text-[#c9a45c] font-bold">{project.projectNumber}</span>
+                <span className="label-meta text-[#c9a45c]">{project.category}</span>
                 <span className="w-6 h-px bg-[#2c2927]" />
-                <span className="label-meta text-[#8a8a84]">{project.category} · {project.year}</span>
+                <span className="label-meta text-[#8a8a84]">{project.year}</span>
               </div>
               <button
                 onClick={onClose}

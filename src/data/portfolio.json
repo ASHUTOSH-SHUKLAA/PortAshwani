@@ -2,7 +2,6 @@
   "projects": [
     {
       "id": "project-01",
-      "projectNumber": "REEL 001",
       "title": "NEON DRIFT & CINEMA",
       "category": "Cinematic Films",
       "client": "Self-Initiated Narrative",
@@ -23,7 +22,6 @@
     },
     {
       "id": "project-02",
-      "projectNumber": "REEL 002",
       "title": "VELOCITY RUSH — KINETIC MOTION",
       "category": "Commercials & Ads",
       "client": "Campaign Direction",
@@ -44,7 +42,6 @@
     },
     {
       "id": "project-03",
-      "projectNumber": "REEL 003",
       "title": "VIRAL REEL HOOKS & PACING",
       "category": "Social Media Reels",
       "client": "Creator Series",
@@ -65,7 +62,6 @@
     },
     {
       "id": "project-04",
-      "projectNumber": "REEL 004",
       "title": "THE VISUAL ARCHIVE — ART & SPACE",
       "category": "Cinematic Films",
       "client": "Exhibition Vignette",
@@ -85,7 +81,6 @@
     },
     {
       "id": "project-05",
-      "projectNumber": "REEL 005",
       "title": "CHRONICLES OF MOTION",
       "category": "Motion Graphics",
       "client": "Visual Research",
@@ -106,7 +101,6 @@
     },
     {
       "id": "project-06",
-      "projectNumber": "REEL 006",
       "title": "RAPID SEQUENCE & DYNAMIC EDITS",
       "category": "Commercials & Ads",
       "client": "High-Retention Campaign",
@@ -126,7 +120,6 @@
     },
     {
       "id": "project-07",
-      "projectNumber": "REEL 007",
       "title": "TEASER ESSENCE & VIRAL MOMENTUM",
       "category": "Social Media Reels",
       "client": "Social Narrative",
@@ -146,7 +139,6 @@
     },
     {
       "id": "project-08",
-      "projectNumber": "REEL 008",
       "title": "TONAL PRECISION — 35MM GRADE",
       "category": "Cinematic Films",
       "client": "Short Film Color Suite",
@@ -167,7 +159,6 @@
   "posters": [
     {
       "id": "poster-1",
-      "number": "01",
       "title": "DEVI / DEMOCRACY",
       "category": "Cultural key art",
       "tag": "Personal study",
@@ -181,7 +172,6 @@
     },
     {
       "id": "poster-2",
-      "number": "02",
       "title": "PEAKY BLINDERS — BY ORDER",
       "category": "Film poster",
       "tag": "Personal study",
@@ -195,7 +185,6 @@
     },
     {
       "id": "poster-3",
-      "number": "03",
       "title": "PEAKY BLINDERS — THE FAMILY",
       "category": "Film poster",
       "tag": "Personal study",
@@ -209,7 +198,6 @@
     },
     {
       "id": "poster-4",
-      "number": "04",
       "title": "UDAAN — POEM SUNOGE?",
       "category": "Film tribute",
       "tag": "Personal study",
@@ -223,7 +211,6 @@
     },
     {
       "id": "poster-5",
-      "number": "05",
       "title": "THE BATMAN — DARK KNIGHT",
       "category": "Character poster",
       "tag": "Personal study",
@@ -237,7 +224,6 @@
     },
     {
       "id": "poster-6",
-      "number": "06",
       "title": "THE BATMAN — PART II",
       "category": "Character poster",
       "tag": "Personal study",
@@ -251,7 +237,6 @@
     },
     {
       "id": "poster-7",
-      "number": "07",
       "title": "BATMAN — NEON CITY",
       "category": "Character poster",
       "tag": "Personal study",
@@ -265,7 +250,6 @@
     },
     {
       "id": "poster-8",
-      "number": "08",
       "title": "OCTOBER",
       "category": "Cinematic poster",
       "tag": "Personal study",
@@ -519,7 +503,6 @@
   "videos": [
     {
       "id": "video-1",
-      "projectNumber": "VIDEO 01",
       "title": "The Mark, in Motion",
       "category": "Video",
       "client": "Personal study",
@@ -538,7 +521,6 @@
     },
     {
       "id": "video-2",
-      "projectNumber": "VIDEO 02",
       "title": "One Shot a Day",
       "category": "Video",
       "client": "Personal study",
@@ -557,7 +539,6 @@
     },
     {
       "id": "video-3",
-      "projectNumber": "VIDEO 03",
       "title": "What Held the Business Back",
       "category": "Video",
       "client": "Personal study",
@@ -576,7 +557,6 @@
     },
     {
       "id": "video-4",
-      "projectNumber": "VIDEO 04",
       "title": "A Creator at Work",
       "category": "Video",
       "client": "Personal study",
@@ -595,7 +575,6 @@
     },
     {
       "id": "video-5",
-      "projectNumber": "VIDEO 05",
       "title": "Refused to Be Dismissed",
       "category": "Video",
       "client": "Personal study",
@@ -614,7 +593,6 @@
     },
     {
       "id": "video-6",
-      "projectNumber": "VIDEO 06",
       "title": "The Value of a Note",
       "category": "Video",
       "client": "Personal study",
@@ -633,7 +611,6 @@
     },
     {
       "id": "video-7",
-      "projectNumber": "VIDEO 07",
       "title": "One More Thing",
       "category": "Video",
       "client": "Personal study",
@@ -652,7 +629,6 @@
     },
     {
       "id": "video-8",
-      "projectNumber": "VIDEO 08",
       "title": "The Businessman",
       "category": "Video",
       "client": "Personal study",
@@ -671,7 +647,6 @@
     },
     {
       "id": "video-9",
-      "projectNumber": "VIDEO 09",
       "title": "Art of Gifting, India",
       "category": "Video",
       "client": "Personal study",
@@ -690,8 +665,7 @@
     },
     {
       "id": "video-10",
-      "projectNumber": "VIDEO 10",
-      "title": "Your Next Customer",
+      "title": "Qutub Minar After Dark",
       "category": "Video",
       "client": "Personal study",
       "year": "2026",
@@ -699,17 +673,16 @@
       "tools": [
         "Premiere Pro"
       ],
-      "description": "A short-form visual piece: Your Next Customer.",
+      "description": "A short-form visual piece captured at Qutub Minar.",
       "concept": "",
       "aspect": "portrait",
       "featured": false,
       "size": "medium",
-      "videoUrl": "/media/videos/portfolio-video-10.mp4",
-      "thumbnail": "/media/video-thumbnails/video-10.jpg"
+      "videoUrl": "/media/videos/portfolio-video-13.mp4",
+      "thumbnail": "/media/video-thumbnails/video-13.jpg"
     },
     {
       "id": "video-11",
-      "projectNumber": "VIDEO 11",
       "title": "Coming Up Next",
       "category": "Video",
       "client": "Personal study",
@@ -728,8 +701,7 @@
     },
     {
       "id": "video-12",
-      "projectNumber": "VIDEO 12",
-      "title": "Dear, La",
+      "title": "Dear Ila",
       "category": "Video",
       "client": "Personal study",
       "year": "2026",
@@ -737,32 +709,13 @@
       "tools": [
         "Premiere Pro"
       ],
-      "description": "A short-form visual piece: Dear, La.",
+      "description": "A short-form visual piece: Dear Ila.",
       "concept": "",
       "aspect": "portrait",
       "featured": false,
       "size": "medium",
       "videoUrl": "/media/videos/vidssave.com%20Nani%20Ka%20Ghar%20720P.mp4",
       "thumbnail": "/media/video-thumbnails/video-12.jpg"
-    },
-    {
-      "id": "video-13",
-      "projectNumber": "VIDEO 13",
-      "title": "Qutub Minar After Dark",
-      "category": "Video",
-      "client": "Personal study",
-      "year": "2026",
-      "role": "Editing · Motion · Sound",
-      "tools": [
-        "Premiere Pro"
-      ],
-      "description": "A short-form visual piece: Qutub Minar After Dark.",
-      "concept": "",
-      "aspect": "portrait",
-      "featured": false,
-      "size": "medium",
-      "videoUrl": "/media/videos/portfolio-video-13.mp4",
-      "thumbnail": "/media/video-thumbnails/video-13.jpg"
     }
   ],
   "sirshaSlides": [
@@ -859,7 +812,7 @@
   "portraitPhotography": [
     {
       "id": "portrait-1",
-      "title": "IMG 0831",
+      "title": "A moment in the fabric market",
       "url": "/media/optimized/portraits/portrait-01.webp",
       "subtitle": "Portrait photography · 2026",
       "tag": "Personal study",
@@ -867,16 +820,120 @@
     },
     {
       "id": "portrait-2",
-      "title": "IMG 0832",
-      "url": "/media/optimized/portraits/portrait-02.webp",
+      "title": "A pause in the old lanes",
+      "url": "/media/optimized/portraits/portrait-old-lanes.webp",
       "subtitle": "Portrait photography · 2026",
       "tag": "Personal study",
       "year": "2026"
     },
     {
       "id": "portrait-3",
-      "title": "IMG 0833",
+      "title": "Under the canvas",
       "url": "/media/optimized/portraits/portrait-03.webp",
+      "subtitle": "Portrait photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    },
+    {
+      "id": "portrait-4",
+      "title": "Rickshaw portrait",
+      "url": "/media/optimized/portraits/portrait-04.webp",
+      "subtitle": "Portrait photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    },
+    {
+      "id": "portrait-5",
+      "title": "At the workbench",
+      "url": "/media/optimized/portraits/portrait-05.webp",
+      "subtitle": "Portrait photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    },
+    {
+      "id": "portrait-6",
+      "title": "The barber at the window",
+      "url": "/media/optimized/portraits/portrait-06.webp",
+      "subtitle": "Portrait photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    },
+    {
+      "id": "portrait-7",
+      "title": "Durga in warm light",
+      "url": "/media/optimized/portraits/portrait-07.webp",
+      "subtitle": "Portrait photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    },
+    {
+      "id": "portrait-8",
+      "title": "Durga in blue light",
+      "url": "/media/optimized/portraits/portrait-08.webp",
+      "subtitle": "Portrait photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    },
+    {
+      "id": "portrait-9",
+      "title": "The artisan’s gaze",
+      "url": "/media/optimized/portraits/portrait-09.webp",
+      "subtitle": "Portrait photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    },
+    {
+      "id": "portrait-10",
+      "title": "A portrait in colour",
+      "url": "/media/optimized/portraits/portrait-10.webp",
+      "subtitle": "Portrait photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    },
+    {
+      "id": "portrait-11",
+      "title": "The maker at work",
+      "url": "/media/optimized/portraits/portrait-11.webp",
+      "subtitle": "Portrait photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    },
+    {
+      "id": "portrait-12",
+      "title": "Street portrait",
+      "url": "/media/optimized/portraits/portrait-12.webp",
+      "subtitle": "Portrait photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    },
+    {
+      "id": "portrait-13",
+      "title": "Market portrait",
+      "url": "/media/optimized/portraits/portrait-13.webp",
+      "subtitle": "Portrait photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    },
+    {
+      "id": "portrait-14",
+      "title": "Craft portrait",
+      "url": "/media/optimized/portraits/portrait-14.webp",
+      "subtitle": "Portrait photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    },
+    {
+      "id": "portrait-15",
+      "title": "Between customers",
+      "url": "/media/optimized/portraits/portrait-15.webp",
+      "subtitle": "Portrait photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    },
+    {
+      "id": "portrait-16",
+      "title": "A view from the driver’s seat",
+      "url": "/media/optimized/portraits/portrait-16.webp",
       "subtitle": "Portrait photography · 2026",
       "tag": "Personal study",
       "year": "2026"
@@ -885,7 +942,7 @@
   "productPhotography": [
     {
       "id": "product-1",
-      "title": "IMG 5652 2.HEIC (1)",
+      "title": "Colourful bottle arrangement",
       "url": "/media/optimized/products/product-01.webp",
       "subtitle": "Product photography · 2026",
       "tag": "Personal study",
@@ -893,7 +950,7 @@
     },
     {
       "id": "product-2",
-      "title": "IMG 5818 2.HEIC (1)",
+      "title": "Window light study",
       "url": "/media/optimized/products/product-02.webp",
       "subtitle": "Product photography · 2026",
       "tag": "Personal study",
@@ -901,7 +958,7 @@
     },
     {
       "id": "product-3",
-      "title": "IMG 5828.HEIC",
+      "title": "Product display",
       "url": "/media/optimized/products/product-03.webp",
       "subtitle": "Product photography · 2026",
       "tag": "Personal study",
@@ -909,7 +966,7 @@
     },
     {
       "id": "product-4",
-      "title": "IMG 5949.HEIC",
+      "title": "Blue bottle still life",
       "url": "/media/optimized/products/product-04.webp",
       "subtitle": "Product photography · 2026",
       "tag": "Personal study",
@@ -917,7 +974,7 @@
     },
     {
       "id": "product-5",
-      "title": "IMG 5967.HEIC (1)",
+      "title": "Water and colour",
       "url": "/media/optimized/products/product-05.webp",
       "subtitle": "Product photography · 2026",
       "tag": "Personal study",
@@ -925,7 +982,7 @@
     },
     {
       "id": "product-6",
-      "title": "IMG 5988.HEIC",
+      "title": "Colour lineup",
       "url": "/media/optimized/products/product-06.webp",
       "subtitle": "Product photography · 2026",
       "tag": "Personal study",
@@ -933,7 +990,7 @@
     },
     {
       "id": "product-7",
-      "title": "IMG 6003.HEIC (4)",
+      "title": "Warm tabletop study",
       "url": "/media/optimized/products/product-07.webp",
       "subtitle": "Product photography · 2026",
       "tag": "Personal study",
@@ -941,9 +998,43 @@
     },
     {
       "id": "product-8",
-      "title": "IMG 20261107 WA0014",
+      "title": "Studio still life",
       "url": "/media/optimized/products/product-08.webp",
       "subtitle": "Product photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    }
+  ],
+  "streetPhotography": [
+    {
+      "id": "street-1",
+      "title": "Market colours",
+      "url": "/media/optimized/street/street-01.webp",
+      "subtitle": "Street photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    },
+    {
+      "id": "street-2",
+      "title": "Red on the street",
+      "url": "/media/optimized/street/street-02.webp",
+      "subtitle": "Street photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    },
+    {
+      "id": "street-3",
+      "title": "A quiet pause",
+      "url": "/media/optimized/street/street-03.webp",
+      "subtitle": "Street photography · 2026",
+      "tag": "Personal study",
+      "year": "2026"
+    },
+    {
+      "id": "street-4",
+      "title": "City in the mirror",
+      "url": "/media/optimized/street/street-04.webp",
+      "subtitle": "Street photography · 2026",
       "tag": "Personal study",
       "year": "2026"
     }
